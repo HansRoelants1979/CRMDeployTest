@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EntityMaps>
+  <EntityMap>
+    <EntitySource>contact</EntitySource>
+    <EntityTarget>letter</EntityTarget>
+    <AttributeMaps />
+  </EntityMap>
+  <EntityMap>
+    <EntitySource>systemuser</EntitySource>
+    <EntityTarget>contact</EntityTarget>
+    <AttributeMaps />
+  </EntityMap>
+</EntityMaps>

@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<systemform>
+  <formid>{cc760212-3eab-4009-b5c3-ea9cf6f3e141}</formid>
+  <IntroducedVersion>8.0.0.0</IntroducedVersion>
+  <FormPresentation>1</FormPresentation>
+  <FormActivationState>1</FormActivationState>
+  <form>
+    <tabs>
+      <tab name="SUMMARY_TAB" id="{13c118dd-d4ad-48ee-8087-d35f5b5f2490}" IsUserDefined="0" showlabel="false" expanded="true" ordinalvalue="0">
+        <columns>
+          <column width="24%" id="0">
+            <sections>
+              <section name="CONTACT_INFORMATION" showlabel="true" showbar="false" id="{101071f5-50e1-4c8b-9a07-ba8e22941e7f}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115" celllabelposition="Left" ordinalvalue="0">
+                <rows>
+                  <row>
+                    <cell id="{1303bf7d-8554-4f3c-99b6-33b9642845d5}" showlabel="true" locklevel="0" ordinalvalue="10003">
+                      <labels>
+                        <label description="Konto Name" languagecode="1031" solutionaction="Modified" />
+                      </labels>
+                    </cell>
+                  </row>
+                </rows>
+              </section>
+            </sections>
+          </column>
+        </columns>
+      </tab>
+      <tab name="DETAILS_TAB" id="{3f11f670-7ed1-4efa-b43b-9b2f07531d21}" IsUserDefined="0" expanded="true" showlabel="true" ordinalvalue="1">
+        <columns>
+          <column width="34%" id="0">
+            <sections>
+              <section name="PERSONAL INFORMATION" showlabel="true" showbar="false" id="{748b7f66-a65c-43ac-8eb5-3bde012488d2}" IsUserDefined="0" columns="1" labelwidth="115" celllabelposition="Left" ordinalvalue="0">
+                <rows />
+              </section>
+            </sections>
+          </column>
+        </columns>
+      </tab>
+    </tabs>
+  </form>
+  <LocalizedNames>
+    <LocalizedName description="Kontakt für interaktive Funktionen" languagecode="1031" />
+    <LocalizedName description="Contact for Interactive experience" languagecode="1033" />
+    <LocalizedName description="Contact pour l'expérience interactive" languagecode="1036" />
+  </LocalizedNames>
+  <Descriptions>
+    <Description description="Standardkontaktformular für interaktive Funktionen" languagecode="1031" />
+    <Description description="Default Interactive experience Contact form." languagecode="1033" />
+    <Description description="Formulaire Contact pour l'expérience interactive par défaut." languagecode="1036" />
+  </Descriptions>
+</systemform>

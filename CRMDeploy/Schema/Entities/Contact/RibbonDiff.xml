@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RibbonDiffXml>
+  <CustomActions>
+    <HideCustomAction HideActionId="new.Mscrm.Form.contact.Relationship.Hide" Location="Mscrm.Form.contact.Relationship" />
+    <HideCustomAction HideActionId="new.Mscrm.HomepageGrid.contact.QuickCampaign.Hide" Location="Mscrm.HomepageGrid.contact.QuickCampaign" />
+    <HideCustomAction HideActionId="new.Mscrm.HomepageGrid.contact.Relationship.Hide" Location="Mscrm.HomepageGrid.contact.Relationship" />
+    <HideCustomAction HideActionId="new.Mscrm.SubGrid.contact.QuickCampaign.Hide" Location="Mscrm.SubGrid.contact.QuickCampaign" />
+  </CustomActions>
+  <Templates>
+    <RibbonTemplates Id="Mscrm.Templates"></RibbonTemplates>
+  </Templates>
+  <CommandDefinitions />
+  <RuleDefinitions>
+    <TabDisplayRules />
+    <DisplayRules />
+    <EnableRules />
+  </RuleDefinitions>
+  <LocLabels />
+</RibbonDiffXml>

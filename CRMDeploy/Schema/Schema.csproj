@@ -1,10 +1,10 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>b5a22627-fb56-4d78-96d1-c9fd1dec20fc</ProjectGuid>
+    <ProjectGuid>{B5A22627-FB56-4D78-96D1-C9FD1DEC20FC}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>Schema</RootNamespace>
@@ -30,24 +30,255 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="System"/>
-    
-    <Reference Include="System.Core"/>
-    <Reference Include="System.Xml.Linq"/>
-    <Reference Include="System.Data.DataSetExtensions"/>
-    
-    
-    <Reference Include="Microsoft.CSharp"/>
-    
-    <Reference Include="System.Data"/>
-    
-    <Reference Include="System.Net.Http"/>
-    
-    <Reference Include="System.Xml"/>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Class1.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup>
+    <Content Include="Entities\Account\Entity.xml" />
+    <Content Include="Entities\Account\FormXml\card\{cccff382-2b92-467e-bf1b-3db179512af8}.xml" />
+    <Content Include="Entities\Account\FormXml\mainInteractionCentric\{a72c7955-442b-4ea4-9499-b10cd18b4256}.xml" />
+    <Content Include="Entities\Account\FormXml\main\{8448b78f-8f42-454e-8e2a-f8196b0419af}.xml" />
+    <Content Include="Entities\Account\FormXml\main\{8448b78f-8f42-454e-8e2a-f8196b0419af}_managed.xml" />
+    <Content Include="Entities\Account\FormXml\main\{b053a39a-041a-4356-acef-ddf00182762b}.xml" />
+    <Content Include="Entities\Account\FormXml\main\{b053a39a-041a-4356-acef-ddf00182762b}_managed.xml" />
+    <Content Include="Entities\Account\FormXml\mobile\{20ec3318-e87e-4623-afe5-cac39cd090de}.xml" />
+    <Content Include="Entities\Account\FormXml\quickCreate\{c9e7ec2d-efca-4e4c-b3e3-f63c4bba5e4b}.xml" />
+    <Content Include="Entities\Account\FormXml\quickCreate\{c9e7ec2d-efca-4e4c-b3e3-f63c4bba5e4b}_managed.xml" />
+    <Content Include="Entities\Account\FormXml\quick\{098ae145-1567-41ec-8398-86dbaac70c9b}.xml" />
+    <Content Include="Entities\Account\FormXml\quick\{2205c86d-ed88-4a2f-a447-3b86a8781f2e}.xml" />
+    <Content Include="Entities\Account\FormXml\quick\{43300723-f867-420b-ab28-976a4d12e6c4}.xml" />
+    <Content Include="Entities\Account\FormXml\quick\{69cff312-cfb6-4289-9631-249ab85d2c62}.xml" />
+    <Content Include="Entities\Account\FormXml\quick\{b028db32-3619-48a5-ac51-cf3f947b0ef3}.xml" />
+    <Content Include="Entities\Account\FormXml\quick\{b028db32-3619-48a5-ac51-cf3f947b0ef3}_managed.xml" />
+    <Content Include="Entities\Account\RibbonDiff.xml" />
+    <Content Include="Entities\Account\SavedQueries\{00000000-0000-0000-00aa-000000666000}.xml" />
+    <Content Include="Entities\Account\SavedQueries\{00000000-0000-0000-00aa-000010001001}.xml" />
+    <Content Include="Entities\Account\SavedQueries\{00000000-0000-0000-00aa-000010001002}.xml" />
+    <Content Include="Entities\Account\SavedQueries\{00000000-0000-0000-00aa-000010001031}.xml" />
+    <Content Include="Entities\Account\SavedQueries\{00000000-0000-0000-00aa-000010001200}.xml" />
+    <Content Include="Entities\Account\SavedQueries\{15c63745-0a6e-4322-8416-a62c84d90279}.xml" />
+    <Content Include="Entities\Account\SavedQueries\{2d1187c4-23fe-4bb5-9647-43bb1c6ddbd1}.xml" />
+    <Content Include="Entities\Account\SavedQueries\{31089fd8-596a-47be-9c9c-3ff82c7a8f8c}.xml" />
+    <Content Include="Entities\Account\SavedQueries\{36222577-e0ac-e711-8109-5065f38b74a1}.xml" />
+    <Content Include="Entities\Account\SavedQueries\{38a21ffb-4e32-4038-beb9-03172a0dd034}.xml" />
+    <Content Include="Entities\Account\SavedQueries\{49fb9771-09e1-4e70-b193-198752493577}.xml" />
+    <Content Include="Entities\Account\SavedQueries\{4d149ed9-12f1-4cd3-8427-418674f21bed}.xml" />
+    <Content Include="Entities\Account\SavedQueries\{51de84dd-732f-440f-a506-26123a19ab50}.xml" />
+    <Content Include="Entities\Account\SavedQueries\{5305c969-c5bb-e711-810d-5065f38bd561}.xml" />
+    <Content Include="Entities\Account\SavedQueries\{59e57080-0cc2-e211-9b83-00155d89b902}.xml" />
+    <Content Include="Entities\Account\SavedQueries\{6b4e36ef-e0ac-e711-8109-5065f38b74a1}.xml" />
+    <Content Include="Entities\Account\SavedQueries\{8c948a8f-c5bb-e711-810d-5065f38bd561}.xml" />
+    <Content Include="Entities\Account\SavedQueries\{a424ac61-bec9-48b0-a3e0-4bb903bd186e}.xml" />
+    <Content Include="Entities\Account\SavedQueries\{a9af0ab8-861d-4cfa-92a5-c6281fed7fab}.xml" />
+    <Content Include="Entities\Account\SavedQueries\{c147f1f7-1d78-4d10-85bf-7e03b79f74fa}.xml" />
+    <Content Include="Entities\Account\SavedQueries\{cfbcd7af-aee5-4e45-8ecc-c040d4020581}.xml" />
+    <Content Include="Entities\Account\SavedQueries\{d234426e-1f37-4944-9255-50e19b541c4c}.xml" />
+    <Content Include="Entities\Account\SavedQueries\{d68ed941-c5bb-e711-810d-5065f38bd561}.xml" />
+    <Content Include="Entities\Account\SavedQueries\{d9c57fee-71ad-48e2-a17b-4ebbd01ec328}.xml" />
+    <Content Include="Entities\Account\SavedQueries\{f5369ab3-c5bb-e711-810d-5065f38bd561}.xml" />
+    <Content Include="Entities\Account\SavedQueries\{f9e54d49-0c76-4cbd-979b-5fe94b496be0}.xml" />
+    <Content Include="Entities\Account\SavedQueries\{f9e54d49-0c76-4cbd-979b-5fe94b496beb}.xml" />
+    <Content Include="Entities\Account\Visualizations\{5B290FFF-355F-DF11-AE90-00155D2E3002}.xml" />
+    <Content Include="Entities\Account\Visualizations\{74A622C0-5193-DE11-97D4-00155DA3B01E}.xml" />
+    <Content Include="Entities\Account\Visualizations\{88DE94CC-8B5E-DF11-AE90-00155D2E3002}.xml" />
+    <Content Include="Entities\Account\Visualizations\{A3A9EE47-5093-DE11-97D4-00155DA3B01E}.xml" />
+    <Content Include="Entities\Account\Visualizations\{BE178262-6142-4B41-85B7-4CCEDC62CFD9}.xml" />
+    <Content Include="Entities\Contact\Entity.xml" />
+    <Content Include="Entities\Contact\FormXml\card\{bc0f68dd-a4b1-4a8f-bed3-c8f5db2f89cf}.xml" />
+    <Content Include="Entities\Contact\FormXml\mainInteractionCentric\{cc760212-3eab-4009-b5c3-ea9cf6f3e141}.xml" />
+    <Content Include="Entities\Contact\FormXml\mainInteractionCentric\{cc760212-3eab-4009-b5c3-ea9cf6f3e141}_managed.xml" />
+    <Content Include="Entities\Contact\FormXml\main\{1fed44d1-ae68-4a41-bd2b-f13acac4acfa}.xml" />
+    <Content Include="Entities\Contact\FormXml\main\{1fed44d1-ae68-4a41-bd2b-f13acac4acfa}_managed.xml" />
+    <Content Include="Entities\Contact\FormXml\main\{894cc46a-b0cb-4ab0-8bf6-200544e46a2d}.xml" />
+    <Content Include="Entities\Contact\FormXml\main\{9e52c4e1-4a67-472a-8a42-ec15c9291fb1}.xml" />
+    <Content Include="Entities\Contact\FormXml\main\{9e52c4e1-4a67-472a-8a42-ec15c9291fb1}_managed.xml" />
+    <Content Include="Entities\Contact\FormXml\mobile\{d8523fca-34f4-4745-8afc-b785fcd192ab}.xml" />
+    <Content Include="Entities\Contact\FormXml\quickCreate\{661157fe-2fc9-4eaa-835f-5bfa2f7b64f7}.xml" />
+    <Content Include="Entities\Contact\FormXml\quickCreate\{661157fe-2fc9-4eaa-835f-5bfa2f7b64f7}_managed.xml" />
+    <Content Include="Entities\Contact\FormXml\quick\{29de27bc-a257-4f29-99cf-bab4a84e688f}.xml" />
+    <Content Include="Entities\Contact\FormXml\quick\{4ef9c9e0-48ea-4f34-88b0-93d41fb0eb55}.xml" />
+    <Content Include="Entities\Contact\FormXml\quick\{4ef9c9e0-48ea-4f34-88b0-93d41fb0eb55}_managed.xml" />
+    <Content Include="Entities\Contact\FormXml\quick\{707fc57b-c5e6-471b-a180-e37ed28a38e2}.xml" />
+    <Content Include="Entities\Contact\FormXml\quick\{707fc57b-c5e6-471b-a180-e37ed28a38e2}_managed.xml" />
+    <Content Include="Entities\Contact\FormXml\quick\{7bb87dfd-ec3e-4ed9-8e3e-5725d3067295}.xml" />
+    <Content Include="Entities\Contact\FormXml\quick\{bdb0ae1c-32fa-4374-b637-8dafe107bc44}.xml" />
+    <Content Include="Entities\Contact\FormXml\quick\{d880c3cf-80e2-42f3-82f9-24d040d09f17}.xml" />
+    <Content Include="Entities\Contact\FormXml\quick\{f3b707fb-3b5f-45f9-9c6b-5e573bb5d19e}.xml" />
+    <Content Include="Entities\Contact\FormXml\taskBasedForm\{26843818-6508-4afe-9342-5fae2ebf15ca}.xml" />
+    <Content Include="Entities\Contact\RibbonDiff.xml" />
+    <Content Include="Entities\Contact\SavedQueries\{00000000-0000-0000-00aa-000000666400}.xml" />
+    <Content Include="Entities\Contact\SavedQueries\{00000000-0000-0000-00aa-000010001003}.xml" />
+    <Content Include="Entities\Contact\SavedQueries\{00000000-0000-0000-00aa-000010001004}.xml" />
+    <Content Include="Entities\Contact\SavedQueries\{00000000-0000-0000-00aa-000010001033}.xml" />
+    <Content Include="Entities\Contact\SavedQueries\{00000000-0000-0000-00aa-000010001210}.xml" />
+    <Content Include="Entities\Contact\SavedQueries\{09963269-65e7-4f70-963f-a61ee495e705}.xml" />
+    <Content Include="Entities\Contact\SavedQueries\{0a8fa653-4147-4282-bf6b-168cfa839803}.xml" />
+    <Content Include="Entities\Contact\SavedQueries\{14ea1914-0e2c-4918-8eca-60930324f18f}.xml" />
+    <Content Include="Entities\Contact\SavedQueries\{2f0d0ede-d356-4b1e-83bd-e978f10e3eeb}.xml" />
+    <Content Include="Entities\Contact\SavedQueries\{33a05713-9d37-4ce8-b41f-bc515f426271}.xml" />
+    <Content Include="Entities\Contact\SavedQueries\{58dc4bee-60b7-4a84-987f-800296b71404}.xml" />
+    <Content Include="Entities\Contact\SavedQueries\{58fb20ff-d5be-406f-908e-c777e9dedf5f}.xml" />
+    <Content Include="Entities\Contact\SavedQueries\{65d2cba8-eeda-4419-b03b-d9c2d8272e51}.xml" />
+    <Content Include="Entities\Contact\SavedQueries\{66cb291a-5df7-e611-810b-1458d041f8e8}.xml" />
+    <Content Include="Entities\Contact\SavedQueries\{73bc2d9b-4e0e-424c-8839-ed59d6817e3a}.xml" />
+    <Content Include="Entities\Contact\SavedQueries\{8df19b44-a073-40c3-9d6d-ee1355d8c4ba}.xml" />
+    <Content Include="Entities\Contact\SavedQueries\{927e6cd8-b3ed-4c20-a154-b8bd8a86d172}.xml" />
+    <Content Include="Entities\Contact\SavedQueries\{9818766e-7172-4d59-9279-013835c3decd}.xml" />
+    <Content Include="Entities\Contact\SavedQueries\{9c241a33-ca0b-4e50-ae92-db780d5b2a12}.xml" />
+    <Content Include="Entities\Contact\SavedQueries\{a2d479c5-53e3-4c69-addd-802327e67a0d}.xml" />
+    <Content Include="Entities\Contact\SavedQueries\{ab582fb0-a846-453e-ad88-77f75ce91264}.xml" />
+    <Content Include="Entities\Contact\SavedQueries\{afdb8a51-9681-4cc9-aaa4-29449e5bc9e1}.xml" />
+    <Content Include="Entities\Contact\SavedQueries\{b07522a7-310a-e711-810a-3863bb340dd8}.xml" />
+    <Content Include="Entities\Contact\SavedQueries\{c14e0638-4996-4720-97cd-c58f0df74220}.xml" />
+    <Content Include="Entities\Contact\SavedQueries\{c14e0638-4996-4720-97cd-c58f0df74228}.xml" />
+    <Content Include="Entities\Contact\SavedQueries\{eda26f1e-dbcc-40ad-91f2-ff2878d1d8d8}.xml" />
+    <Content Include="Entities\Contact\SavedQueries\{fe7c9f99-efe8-44dc-9191-619492401b0c}.xml" />
+    <Content Include="Entities\Contact\Visualizations\{2FF3EBEA-6310-4DDE-B3A1-E1144EA42B7B}.xml" />
+    <Content Include="Entities\Contact\Visualizations\{751B7456-308E-4568-A3A9-47135AAE833A}.xml" />
+    <Content Include="Entities\Contact\Visualizations\{E365462F-1DB9-46A8-928D-BEAB1A7A2375}.xml" />
+    <Content Include="Entities\Contact\Visualizations\{EA89E2AD-2602-4333-8724-AA5775D66B77}.xml" />
+    <Content Include="Other\Customizations.xml" />
+    <Content Include="Other\EntityMaps.xml" />
+    <Content Include="Other\Relationships.xml" />
+    <Content Include="Other\Relationships\Account.xml" />
+    <Content Include="Other\Relationships\BusinessUnit.xml" />
+    <Content Include="Other\Relationships\Contact.xml" />
+    <Content Include="Other\Relationships\Equipment.xml" />
+    <Content Include="Other\Relationships\ExternalParty.xml" />
+    <Content Include="Other\Relationships\Lead.xml" />
+    <Content Include="Other\Relationships\List.xml" />
+    <Content Include="Other\Relationships\Owner.xml" />
+    <Content Include="Other\Relationships\PriceLevel.xml" />
+    <Content Include="Other\Relationships\Service.xml" />
+    <Content Include="Other\Relationships\SLA.xml" />
+    <Content Include="Other\Relationships\SystemUser.xml" />
+    <Content Include="Other\Relationships\tc_accounttype.xml" />
+    <Content Include="Other\Relationships\tc_cluster.xml" />
+    <Content Include="Other\Relationships\tc_country.xml" />
+    <Content Include="Other\Relationships\tc_gateway.xml" />
+    <Content Include="Other\Relationships\tc_store.xml" />
+    <Content Include="Other\Relationships\tc_ukregion.xml" />
+    <Content Include="Other\Relationships\Team.xml" />
+    <Content Include="Other\Relationships\Territory.xml" />
+    <Content Include="Other\Relationships\TransactionCurrency.xml" />
+    <Content Include="Other\Solution.xml" />
+    <Content Include="Workflows\TcAccountIfSupplierSetMandatoryFields-B2F504F6-A2AA-E711-810A-5065F38BC531.xaml.data.xml" />
+    <Content Include="Workflows\TcAccountShowMergeFlag-DBA736E6-D1C2-E711-810F-5065F38BD561.xaml.data.xml" />
+    <Content Include="Workflows\TcContactCheckCompanyNameHasData-94B7E66B-330A-E711-810A-3863BB340DD8.xaml.data.xml" />
+    <Content Include="Workflows\TcCustomerAdditionalCustomerDetailsEmail2TypeVisib-A422FDD9-E803-E711-8109-3863BB34FB48.xaml.data.xml" />
+    <Content Include="Workflows\TcCustomerAdditionalCustomerDetailsEmail3TypeVisib-19CB9D14-E903-E711-8109-3863BB34FB48.xaml.data.xml" />
+    <Content Include="Workflows\TcCustomerAdditionalCustomerDetailsTelephone2TypeV-F1852251-E803-E711-8109-3863BB34FB48.xaml.data.xml" />
+    <Content Include="Workflows\TcCustomerAdditionalCustomerDetailsTelephone3TypeV-1833F08E-E803-E711-8109-3863BB34FB48.xaml.data.xml" />
+    <Content Include="Workflows\TcCustomerDeceasedNoLongerLivingAtAddress-94D1647B-C2AD-E711-8109-5065F38B74A1.xaml.data.xml" />
+    <Content Include="Workflows\TcCustomerShowMergeFlag-12E07F0C-D0C2-E711-810F-5065F38BD561.xaml.data.xml" />
+    <Content Include="Workflows\TcIdsCustomerEmailEntryControl-D9837A6A-43C9-E711-810E-5065F38B74A1.xaml.data.xml" />
+    <Content Include="Workflows\TcIDSCustomerMandatoryTelephoneEmail-1F4C4C53-4836-E711-8104-E0071B66A0A1.xaml.data.xml" />
+    <Content Include="Workflows\TcUkRetailCustomerEmailEntryControlv2-72C2A09A-8BCF-E711-8111-5065F38BB571.xaml.data.xml" />
+    <Content Include="Workflows\TcUkRetailCustomerGenericFieldControl-93E81061-E260-E711-8123-E0071B6631C1.xaml.data.xml" />
+    <Content Include="Workflows\TcUkRetailCustomerMarketingConsent-A188477B-A860-E711-8105-E0071B65CE81.xaml.data.xml" />
+    <Content Include="Workflows\TcUkRetailCustomerSetSourceMarket-E6A74E7D-AB73-E711-8106-E0071B65CE81.xaml.data.xml" />
+    <Content Include="Workflows\TcUkRetailCustomerThomasCookMarketingConsent-F9C8E85D-64DB-E711-8113-5065F38BC531.xaml.data.xml" />
+    <Content Include="Workflows\TcUkRetailCustomerThomasCookMarketingConsentSetReq-478C02BA-308E-E711-8104-5065F38B74A1.xaml.data.xml" />
+    <Content Include="Workflows\TcUKRetailDeceasedNoLongerLivingAtAddress-8D63DC62-8E97-E711-8105-5065F38B74A1.xaml.data.xml" />
+    <Content Include="Workflows\TcUKRetailMarketingTermsandCondtions-7E4C9A4F-6565-E711-8122-E0071B662011.xaml.data.xml" />
+    <Content Include="Workflows\TcUKRetailNoLongerLivingAtAddress-4D0787D3-8F97-E711-8105-5065F38B74A1.xaml.data.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Page Include="Entities\Account\Formulas\account-opendeals.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Entities\Account\Formulas\account-openrevenue.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <XamlAppDef Include="Workflows\TcAccountIfSupplierSetMandatoryFields-B2F504F6-A2AA-E711-810A-5065F38BC531.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </XamlAppDef>
+    <XamlAppDef Include="Workflows\TcAccountShowMergeFlag-DBA736E6-D1C2-E711-810F-5065F38BD561.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </XamlAppDef>
+    <XamlAppDef Include="Workflows\TcContactCheckCompanyNameHasData-94B7E66B-330A-E711-810A-3863BB340DD8.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </XamlAppDef>
+    <XamlAppDef Include="Workflows\TcCustomerAdditionalCustomerDetailsEmail2TypeVisib-A422FDD9-E803-E711-8109-3863BB34FB48.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </XamlAppDef>
+    <XamlAppDef Include="Workflows\TcCustomerAdditionalCustomerDetailsEmail3TypeVisib-19CB9D14-E903-E711-8109-3863BB34FB48.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </XamlAppDef>
+    <XamlAppDef Include="Workflows\TcCustomerAdditionalCustomerDetailsTelephone2TypeV-F1852251-E803-E711-8109-3863BB34FB48.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </XamlAppDef>
+    <XamlAppDef Include="Workflows\TcCustomerAdditionalCustomerDetailsTelephone3TypeV-1833F08E-E803-E711-8109-3863BB34FB48.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </XamlAppDef>
+    <XamlAppDef Include="Workflows\TcCustomerDeceasedNoLongerLivingAtAddress-94D1647B-C2AD-E711-8109-5065F38B74A1.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </XamlAppDef>
+    <XamlAppDef Include="Workflows\TcCustomerShowMergeFlag-12E07F0C-D0C2-E711-810F-5065F38BD561.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </XamlAppDef>
+    <XamlAppDef Include="Workflows\TcIdsCustomerEmailEntryControl-D9837A6A-43C9-E711-810E-5065F38B74A1.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </XamlAppDef>
+    <XamlAppDef Include="Workflows\TcIDSCustomerMandatoryTelephoneEmail-1F4C4C53-4836-E711-8104-E0071B66A0A1.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </XamlAppDef>
+    <XamlAppDef Include="Workflows\TcUkRetailCustomerEmailEntryControlv2-72C2A09A-8BCF-E711-8111-5065F38BB571.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </XamlAppDef>
+    <XamlAppDef Include="Workflows\TcUkRetailCustomerGenericFieldControl-93E81061-E260-E711-8123-E0071B6631C1.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </XamlAppDef>
+    <XamlAppDef Include="Workflows\TcUkRetailCustomerMarketingConsent-A188477B-A860-E711-8105-E0071B65CE81.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </XamlAppDef>
+    <XamlAppDef Include="Workflows\TcUkRetailCustomerSetSourceMarket-E6A74E7D-AB73-E711-8106-E0071B65CE81.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </XamlAppDef>
+    <XamlAppDef Include="Workflows\TcUkRetailCustomerThomasCookMarketingConsent-F9C8E85D-64DB-E711-8113-5065F38BC531.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </XamlAppDef>
+    <XamlAppDef Include="Workflows\TcUkRetailCustomerThomasCookMarketingConsentSetReq-478C02BA-308E-E711-8104-5065F38B74A1.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </XamlAppDef>
+    <XamlAppDef Include="Workflows\TcUKRetailDeceasedNoLongerLivingAtAddress-8D63DC62-8E97-E711-8105-5065F38B74A1.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </XamlAppDef>
+    <XamlAppDef Include="Workflows\TcUKRetailMarketingTermsandCondtions-7E4C9A4F-6565-E711-8122-E0071B662011.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </XamlAppDef>
+    <XamlAppDef Include="Workflows\TcUKRetailNoLongerLivingAtAddress-4D0787D3-8F97-E711-8105-5065F38B74A1.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </XamlAppDef>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
- </Project>
+</Project>

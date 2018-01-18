@@ -1,0 +1,132 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Workflow WorkflowId="{1f4c4c53-4836-e711-8104-e0071b66a0a1}" Name="Tc.IDS.Customer.Mandatory.Telephone.Email" Description="Click to add description">
+  <XamlFileName>/Workflows/TcIDSCustomerMandatoryTelephoneEmail-1F4C4C53-4836-E711-8104-E0071B66A0A1.xaml</XamlFileName>
+  <Type>1</Type>
+  <Subprocess>0</Subprocess>
+  <Category>2</Category>
+  <Mode>1</Mode>
+  <Scope>4</Scope>
+  <OnDemand>0</OnDemand>
+  <TriggerOnCreate>0</TriggerOnCreate>
+  <TriggerOnDelete>0</TriggerOnDelete>
+  <AsyncAutodelete>0</AsyncAutodelete>
+  <SyncWorkflowLogOnFailure>0</SyncWorkflowLogOnFailure>
+  <StateCode>1</StateCode>
+  <StatusCode>2</StatusCode>
+  <RunAs>1</RunAs>
+  <IsTransacted>1</IsTransacted>
+  <IntroducedVersion>1.0.0.96</IntroducedVersion>
+  <IsCustomizable>1</IsCustomizable>
+  <BusinessProcessType>0</BusinessProcessType>
+  <PrimaryEntity>Contact</PrimaryEntity>
+  <ProcessTriggers>
+    <ProcessTrigger processtriggerid="{28a89939-b4d5-e711-8112-5065f38bc531}">
+      <controltype>1</controltype>
+      <formid>{1fed44d1-ae68-4a41-bd2b-f13acac4acfa}</formid>
+      <scope>1</scope>
+      <controlname>telephone1</controlname>
+      <event>change</event>
+      <pipelinestage>0</pipelinestage>
+      <iscustomizable>1</iscustomizable>
+      <primaryentitytypecode>Contact</primaryentitytypecode>
+    </ProcessTrigger>
+    <ProcessTrigger processtriggerid="{29a89939-b4d5-e711-8112-5065f38bc531}">
+      <formid>{1fed44d1-ae68-4a41-bd2b-f13acac4acfa}</formid>
+      <scope>1</scope>
+      <event>load</event>
+      <pipelinestage>0</pipelinestage>
+      <iscustomizable>1</iscustomizable>
+      <primaryentitytypecode>Contact</primaryentitytypecode>
+    </ProcessTrigger>
+    <ProcessTrigger processtriggerid="{2aa89939-b4d5-e711-8112-5065f38bc531}">
+      <controltype>1</controltype>
+      <formid>{1fed44d1-ae68-4a41-bd2b-f13acac4acfa}</formid>
+      <scope>1</scope>
+      <controlname>emailaddress1</controlname>
+      <event>change</event>
+      <pipelinestage>0</pipelinestage>
+      <iscustomizable>1</iscustomizable>
+      <primaryentitytypecode>Contact</primaryentitytypecode>
+    </ProcessTrigger>
+    <ProcessTrigger processtriggerid="{2ba89939-b4d5-e711-8112-5065f38bc531}">
+      <formid>{1fed44d1-ae68-4a41-bd2b-f13acac4acfa}</formid>
+      <scope>1</scope>
+      <event>load</event>
+      <pipelinestage>0</pipelinestage>
+      <iscustomizable>1</iscustomizable>
+      <primaryentitytypecode>Contact</primaryentitytypecode>
+    </ProcessTrigger>
+    <ProcessTrigger processtriggerid="{2ca89939-b4d5-e711-8112-5065f38bc531}">
+      <controltype>1</controltype>
+      <formid>{1fed44d1-ae68-4a41-bd2b-f13acac4acfa}</formid>
+      <scope>1</scope>
+      <controlname>emailaddress1</controlname>
+      <event>change</event>
+      <pipelinestage>0</pipelinestage>
+      <iscustomizable>1</iscustomizable>
+      <primaryentitytypecode>Contact</primaryentitytypecode>
+    </ProcessTrigger>
+    <ProcessTrigger processtriggerid="{2da89939-b4d5-e711-8112-5065f38bc531}">
+      <formid>{1fed44d1-ae68-4a41-bd2b-f13acac4acfa}</formid>
+      <scope>1</scope>
+      <event>load</event>
+      <pipelinestage>0</pipelinestage>
+      <iscustomizable>1</iscustomizable>
+      <primaryentitytypecode>Contact</primaryentitytypecode>
+    </ProcessTrigger>
+    <ProcessTrigger processtriggerid="{2ea89939-b4d5-e711-8112-5065f38bc531}">
+      <controltype>1</controltype>
+      <formid>{1fed44d1-ae68-4a41-bd2b-f13acac4acfa}</formid>
+      <scope>1</scope>
+      <controlname>telephone1</controlname>
+      <event>change</event>
+      <pipelinestage>0</pipelinestage>
+      <iscustomizable>1</iscustomizable>
+      <primaryentitytypecode>Contact</primaryentitytypecode>
+    </ProcessTrigger>
+    <ProcessTrigger processtriggerid="{2fa89939-b4d5-e711-8112-5065f38bc531}">
+      <formid>{1fed44d1-ae68-4a41-bd2b-f13acac4acfa}</formid>
+      <scope>1</scope>
+      <event>load</event>
+      <pipelinestage>0</pipelinestage>
+      <iscustomizable>1</iscustomizable>
+      <primaryentitytypecode>Contact</primaryentitytypecode>
+    </ProcessTrigger>
+    <ProcessTrigger processtriggerid="{30a89939-b4d5-e711-8112-5065f38bc531}">
+      <controltype>1</controltype>
+      <formid>{1fed44d1-ae68-4a41-bd2b-f13acac4acfa}</formid>
+      <scope>1</scope>
+      <controlname>telephone1</controlname>
+      <event>change</event>
+      <pipelinestage>0</pipelinestage>
+      <iscustomizable>1</iscustomizable>
+      <primaryentitytypecode>Contact</primaryentitytypecode>
+    </ProcessTrigger>
+    <ProcessTrigger processtriggerid="{31a89939-b4d5-e711-8112-5065f38bc531}">
+      <formid>{1fed44d1-ae68-4a41-bd2b-f13acac4acfa}</formid>
+      <scope>1</scope>
+      <event>load</event>
+      <pipelinestage>0</pipelinestage>
+      <iscustomizable>1</iscustomizable>
+      <primaryentitytypecode>Contact</primaryentitytypecode>
+    </ProcessTrigger>
+    <ProcessTrigger processtriggerid="{32a89939-b4d5-e711-8112-5065f38bc531}">
+      <controltype>1</controltype>
+      <formid>{1fed44d1-ae68-4a41-bd2b-f13acac4acfa}</formid>
+      <scope>1</scope>
+      <controlname>emailaddress1</controlname>
+      <event>change</event>
+      <pipelinestage>0</pipelinestage>
+      <iscustomizable>1</iscustomizable>
+      <primaryentitytypecode>Contact</primaryentitytypecode>
+    </ProcessTrigger>
+    <ProcessTrigger processtriggerid="{33a89939-b4d5-e711-8112-5065f38bc531}">
+      <formid>{1fed44d1-ae68-4a41-bd2b-f13acac4acfa}</formid>
+      <scope>1</scope>
+      <event>load</event>
+      <pipelinestage>0</pipelinestage>
+      <iscustomizable>1</iscustomizable>
+      <primaryentitytypecode>Contact</primaryentitytypecode>
+    </ProcessTrigger>
+  </ProcessTriggers>
+</Workflow>

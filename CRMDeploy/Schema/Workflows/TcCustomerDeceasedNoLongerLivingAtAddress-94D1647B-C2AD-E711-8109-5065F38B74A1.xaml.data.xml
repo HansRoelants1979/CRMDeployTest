@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Workflow WorkflowId="{94d1647b-c2ad-e711-8109-5065f38b74a1}" Name="Tc.Customer.DeceasedNoLongerLivingAtAddress" Description="Click to add description">
+  <XamlFileName>/Workflows/TcCustomerDeceasedNoLongerLivingAtAddress-94D1647B-C2AD-E711-8109-5065F38B74A1.xaml</XamlFileName>
+  <Type>1</Type>
+  <Subprocess>0</Subprocess>
+  <Category>2</Category>
+  <Mode>1</Mode>
+  <Scope>4</Scope>
+  <OnDemand>0</OnDemand>
+  <TriggerOnCreate>0</TriggerOnCreate>
+  <TriggerOnDelete>0</TriggerOnDelete>
+  <AsyncAutodelete>0</AsyncAutodelete>
+  <SyncWorkflowLogOnFailure>0</SyncWorkflowLogOnFailure>
+  <StateCode>1</StateCode>
+  <StatusCode>2</StatusCode>
+  <RunAs>1</RunAs>
+  <IsTransacted>1</IsTransacted>
+  <IntroducedVersion>2.0.0.9</IntroducedVersion>
+  <IsCustomizable>1</IsCustomizable>
+  <BusinessProcessType>0</BusinessProcessType>
+  <PrimaryEntity>Contact</PrimaryEntity>
+  <ProcessTriggers>
+    <ProcessTrigger processtriggerid="{2b64edec-88ae-e711-8109-5065f38b74a1}">
+      <controltype>1</controltype>
+      <scope>1</scope>
+      <controlname>tc_deceased</controlname>
+      <event>change</event>
+      <pipelinestage>0</pipelinestage>
+      <iscustomizable>1</iscustomizable>
+      <primaryentitytypecode>Contact</primaryentitytypecode>
+    </ProcessTrigger>
+    <ProcessTrigger processtriggerid="{2c64edec-88ae-e711-8109-5065f38b74a1}">
+      <scope>1</scope>
+      <event>load</event>
+      <pipelinestage>0</pipelinestage>
+      <iscustomizable>1</iscustomizable>
+      <primaryentitytypecode>Contact</primaryentitytypecode>
+    </ProcessTrigger>
+    <ProcessTrigger processtriggerid="{2d64edec-88ae-e711-8109-5065f38b74a1}">
+      <controltype>1</controltype>
+      <scope>1</scope>
+      <controlname>tc_nolongerlivingataddress</controlname>
+      <event>change</event>
+      <pipelinestage>0</pipelinestage>
+      <iscustomizable>1</iscustomizable>
+      <primaryentitytypecode>Contact</primaryentitytypecode>
+    </ProcessTrigger>
+    <ProcessTrigger processtriggerid="{2e64edec-88ae-e711-8109-5065f38b74a1}">
+      <scope>1</scope>
+      <event>load</event>
+      <pipelinestage>0</pipelinestage>
+      <iscustomizable>1</iscustomizable>
+      <primaryentitytypecode>Contact</primaryentitytypecode>
+    </ProcessTrigger>
+  </ProcessTriggers>
+</Workflow>

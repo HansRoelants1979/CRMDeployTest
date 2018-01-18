@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Workflow WorkflowId="{4d0787d3-8f97-e711-8105-5065f38b74a1}" Name="Tc.UK.Retail.NoLongerLivingAtAddress" Description="Click to add description">
+  <XamlFileName>/Workflows/TcUKRetailNoLongerLivingAtAddress-4D0787D3-8F97-E711-8105-5065F38B74A1.xaml</XamlFileName>
+  <Type>1</Type>
+  <Subprocess>0</Subprocess>
+  <Category>2</Category>
+  <Mode>1</Mode>
+  <Scope>4</Scope>
+  <OnDemand>0</OnDemand>
+  <TriggerOnCreate>0</TriggerOnCreate>
+  <TriggerOnDelete>0</TriggerOnDelete>
+  <AsyncAutodelete>0</AsyncAutodelete>
+  <SyncWorkflowLogOnFailure>0</SyncWorkflowLogOnFailure>
+  <StateCode>1</StateCode>
+  <StatusCode>2</StatusCode>
+  <RunAs>1</RunAs>
+  <IsTransacted>1</IsTransacted>
+  <IntroducedVersion>2.0.0.5</IntroducedVersion>
+  <IsCustomizable>1</IsCustomizable>
+  <BusinessProcessType>0</BusinessProcessType>
+  <PrimaryEntity>Contact</PrimaryEntity>
+  <ProcessTriggers>
+    <ProcessTrigger processtriggerid="{9d952221-9097-e711-8105-5065f38b74a1}">
+      <controltype>1</controltype>
+      <scope>1</scope>
+      <controlname>tc_nolongerlivingataddress</controlname>
+      <event>change</event>
+      <pipelinestage>0</pipelinestage>
+      <iscustomizable>1</iscustomizable>
+      <primaryentitytypecode>Contact</primaryentitytypecode>
+    </ProcessTrigger>
+    <ProcessTrigger processtriggerid="{9e952221-9097-e711-8105-5065f38b74a1}">
+      <scope>1</scope>
+      <event>load</event>
+      <pipelinestage>0</pipelinestage>
+      <iscustomizable>1</iscustomizable>
+      <primaryentitytypecode>Contact</primaryentitytypecode>
+    </ProcessTrigger>
+  </ProcessTriggers>
+</Workflow>

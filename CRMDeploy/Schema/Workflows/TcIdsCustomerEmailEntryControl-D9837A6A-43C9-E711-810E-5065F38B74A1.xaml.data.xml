@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Workflow WorkflowId="{d9837a6a-43c9-e711-810e-5065f38b74a1}" Name="Tc.Ids.Customer.Email.Entry.Control" Description="Manage the entry of emails into the retail customer form&#xA;NOTE: Considers incoming data contains noemail@thomascook.com">
+  <XamlFileName>/Workflows/TcIdsCustomerEmailEntryControl-D9837A6A-43C9-E711-810E-5065F38B74A1.xaml</XamlFileName>
+  <Type>1</Type>
+  <Subprocess>0</Subprocess>
+  <Category>2</Category>
+  <Mode>1</Mode>
+  <Scope>4</Scope>
+  <OnDemand>0</OnDemand>
+  <TriggerOnCreate>0</TriggerOnCreate>
+  <TriggerOnDelete>0</TriggerOnDelete>
+  <AsyncAutodelete>0</AsyncAutodelete>
+  <SyncWorkflowLogOnFailure>0</SyncWorkflowLogOnFailure>
+  <StateCode>1</StateCode>
+  <StatusCode>2</StatusCode>
+  <RunAs>1</RunAs>
+  <IsTransacted>1</IsTransacted>
+  <IntroducedVersion>6.0.15</IntroducedVersion>
+  <IsCustomizable>1</IsCustomizable>
+  <BusinessProcessType>0</BusinessProcessType>
+  <PrimaryEntity>Contact</PrimaryEntity>
+  <ProcessTriggers>
+    <ProcessTrigger processtriggerid="{8953c4b1-45c9-e711-810e-5065f38b74a1}">
+      <controltype>1</controltype>
+      <formid>{1fed44d1-ae68-4a41-bd2b-f13acac4acfa}</formid>
+      <scope>1</scope>
+      <controlname>emailaddress1</controlname>
+      <event>change</event>
+      <pipelinestage>0</pipelinestage>
+      <iscustomizable>1</iscustomizable>
+      <primaryentitytypecode>Contact</primaryentitytypecode>
+    </ProcessTrigger>
+    <ProcessTrigger processtriggerid="{8a53c4b1-45c9-e711-810e-5065f38b74a1}">
+      <formid>{1fed44d1-ae68-4a41-bd2b-f13acac4acfa}</formid>
+      <scope>1</scope>
+      <event>load</event>
+      <pipelinestage>0</pipelinestage>
+      <iscustomizable>1</iscustomizable>
+      <primaryentitytypecode>Contact</primaryentitytypecode>
+    </ProcessTrigger>
+    <ProcessTrigger processtriggerid="{8b53c4b1-45c9-e711-810e-5065f38b74a1}">
+      <controltype>1</controltype>
+      <formid>{1fed44d1-ae68-4a41-bd2b-f13acac4acfa}</formid>
+      <scope>1</scope>
+      <controlname>emailaddress1</controlname>
+      <event>change</event>
+      <pipelinestage>0</pipelinestage>
+      <iscustomizable>1</iscustomizable>
+      <primaryentitytypecode>Contact</primaryentitytypecode>
+    </ProcessTrigger>
+    <ProcessTrigger processtriggerid="{8c53c4b1-45c9-e711-810e-5065f38b74a1}">
+      <formid>{1fed44d1-ae68-4a41-bd2b-f13acac4acfa}</formid>
+      <scope>1</scope>
+      <event>load</event>
+      <pipelinestage>0</pipelinestage>
+      <iscustomizable>1</iscustomizable>
+      <primaryentitytypecode>Contact</primaryentitytypecode>
+    </ProcessTrigger>
+    <ProcessTrigger processtriggerid="{8d53c4b1-45c9-e711-810e-5065f38b74a1}">
+      <controltype>1</controltype>
+      <formid>{1fed44d1-ae68-4a41-bd2b-f13acac4acfa}</formid>
+      <scope>1</scope>
+      <controlname>emailaddress1</controlname>
+      <event>change</event>
+      <pipelinestage>0</pipelinestage>
+      <iscustomizable>1</iscustomizable>
+      <primaryentitytypecode>Contact</primaryentitytypecode>
+    </ProcessTrigger>
+    <ProcessTrigger processtriggerid="{8e53c4b1-45c9-e711-810e-5065f38b74a1}">
+      <formid>{1fed44d1-ae68-4a41-bd2b-f13acac4acfa}</formid>
+      <scope>1</scope>
+      <event>load</event>
+      <pipelinestage>0</pipelinestage>
+      <iscustomizable>1</iscustomizable>
+      <primaryentitytypecode>Contact</primaryentitytypecode>
+    </ProcessTrigger>
+  </ProcessTriggers>
+</Workflow>

@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<systemform>
+  <formid>{4ef9c9e0-48ea-4f34-88b0-93d41fb0eb55}</formid>
+  <IntroducedVersion>1.0.0.139</IntroducedVersion>
+  <FormPresentation>1</FormPresentation>
+  <FormActivationState>1</FormActivationState>
+  <form>
+    <tabs>
+      <tab id="{98a08c66-d3fa-4835-aadc-eb99ca391cec}" name="tab_1" showlabel="false" locklevel="0" expanded="true">
+        <labels>
+          <label description="Contact Details" languagecode="1033" />
+        </labels>
+        <columns>
+          <column width="100%">
+            <sections>
+              <section id="{10a46c47-3eaf-4fd7-b7d2-94c53207b84f}" name="tab_1_column_1_section_1" columns="1" showlabel="false" showbar="false" IsUserDefined="0">
+                <labels>
+                  <label description="section" languagecode="1033" />
+                </labels>
+                <rows>
+                  <row>
+                    <cell id="{5040e73d-b3e1-338d-d30c-bc6d43866552}" showlabel="true" locklevel="0">
+                      <labels>
+                        <label description="Phone 1" languagecode="1033" />
+                      </labels>
+                      <control id="telephone1" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="telephone1" disabled="false" uniqueid="{2e3d5487-b802-7e59-4e93-b0842b04e6a5}" />
+                    </cell>
+                  </row>
+                  <row>
+                    <cell id="{d0e662d4-4d8b-5da3-244a-400736d74072}" showlabel="true" locklevel="0">
+                      <labels>
+                        <label description="Phone 2" languagecode="1033" />
+                      </labels>
+                      <control id="telephone2" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="telephone2" disabled="false" uniqueid="{ce13c2b9-d499-ae4d-7751-c4c03c3163b7}" />
+                    </cell>
+                  </row>
+                  <row>
+                    <cell id="{80004a93-90d2-3a62-c964-69a6cd5e083c}" showlabel="true" locklevel="0">
+                      <labels>
+                        <label description="Phone 3" languagecode="1033" />
+                      </labels>
+                      <control id="telephone3" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="telephone3" disabled="false" uniqueid="{e1b94112-e763-4cee-66d9-dac529be4045}" />
+                    </cell>
+                  </row>
+                  <row>
+                    <cell id="{bac26d2e-9248-1b42-7772-59635b74479d}" showlabel="true" locklevel="0">
+                      <labels>
+                        <label description="Email 1" languagecode="1033" />
+                      </labels>
+                      <control id="emailaddress1" classid="{ADA2203E-B4CD-49be-9DDF-234642B43B52}" datafieldname="emailaddress1" disabled="false" uniqueid="{35159493-c66b-bc59-00ce-ae68393ce47a}" />
+                    </cell>
+                  </row>
+                  <row>
+                    <cell id="{ed9d6e58-37e2-6e28-7131-58329130c5ca}" showlabel="true" locklevel="0">
+                      <labels>
+                        <label description="Email 2" languagecode="1033" />
+                      </labels>
+                      <control id="emailaddress2" classid="{ADA2203E-B4CD-49be-9DDF-234642B43B52}" datafieldname="emailaddress2" disabled="false" uniqueid="{b503e323-09ae-6400-cad0-40ed378cceac}" />
+                    </cell>
+                  </row>
+                  <row>
+                    <cell id="{25466931-a916-712c-d326-998515ac3e9a}" showlabel="true" locklevel="0">
+                      <labels>
+                        <label description="Email 3" languagecode="1033" />
+                      </labels>
+                      <control id="emailaddress3" classid="{ADA2203E-B4CD-49be-9DDF-234642B43B52}" datafieldname="emailaddress3" disabled="false" uniqueid="{5290778c-0575-d1c9-5879-e7e060709424}" />
+                    </cell>
+                  </row>
+                </rows>
+              </section>
+            </sections>
+          </column>
+        </columns>
+      </tab>
+    </tabs>
+    <DisplayConditions Order="2">
+      <Role Id="{627090ff-40a3-4053-8790-584edc5be201}" />
+      <Role Id="{119f245c-3cc8-4b62-b31c-d1a046ced15d}" />
+    </DisplayConditions>
+  </form>
+  <IsCustomizable>1</IsCustomizable>
+  <CanBeDeleted>1</CanBeDeleted>
+  <LocalizedNames>
+    <LocalizedName description="Phone Numbers &amp; Emails" languagecode="1033" />
+  </LocalizedNames>
+  <Descriptions>
+    <Description description="This form shows the 3 major phone numbers and emails saved on the customer record." languagecode="1033" />
+  </Descriptions>
+</systemform>

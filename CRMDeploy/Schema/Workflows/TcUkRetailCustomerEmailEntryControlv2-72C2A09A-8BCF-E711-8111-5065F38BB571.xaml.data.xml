@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Workflow WorkflowId="{72c2a09a-8bcf-e711-8111-5065f38bb571}" Name="Tc.Uk.Retail.Customer.Email.Entry.Control v2" Description="Manage the entry of emails into the retail customer form&#xA;NOTE: Considers incoming data contains noemail@thomascook.com">
+  <XamlFileName>/Workflows/TcUkRetailCustomerEmailEntryControlv2-72C2A09A-8BCF-E711-8111-5065F38BB571.xaml</XamlFileName>
+  <Type>1</Type>
+  <Subprocess>0</Subprocess>
+  <Category>2</Category>
+  <Mode>1</Mode>
+  <Scope>4</Scope>
+  <OnDemand>0</OnDemand>
+  <TriggerOnCreate>0</TriggerOnCreate>
+  <TriggerOnDelete>0</TriggerOnDelete>
+  <AsyncAutodelete>0</AsyncAutodelete>
+  <SyncWorkflowLogOnFailure>0</SyncWorkflowLogOnFailure>
+  <StateCode>1</StateCode>
+  <StatusCode>2</StatusCode>
+  <RunAs>1</RunAs>
+  <IsTransacted>1</IsTransacted>
+  <IntroducedVersion>6.0.15</IntroducedVersion>
+  <IsCustomizable>1</IsCustomizable>
+  <BusinessProcessType>0</BusinessProcessType>
+  <PrimaryEntity>Contact</PrimaryEntity>
+  <ProcessTriggers>
+    <ProcessTrigger processtriggerid="{17a59271-b4d5-e711-8112-5065f38bc531}">
+      <controltype>1</controltype>
+      <formid>{9e52c4e1-4a67-472a-8a42-ec15c9291fb1}</formid>
+      <scope>1</scope>
+      <controlname>emailaddress1</controlname>
+      <event>change</event>
+      <pipelinestage>0</pipelinestage>
+      <iscustomizable>1</iscustomizable>
+      <primaryentitytypecode>Contact</primaryentitytypecode>
+    </ProcessTrigger>
+    <ProcessTrigger processtriggerid="{18a59271-b4d5-e711-8112-5065f38bc531}">
+      <formid>{9e52c4e1-4a67-472a-8a42-ec15c9291fb1}</formid>
+      <scope>1</scope>
+      <event>load</event>
+      <pipelinestage>0</pipelinestage>
+      <iscustomizable>1</iscustomizable>
+      <primaryentitytypecode>Contact</primaryentitytypecode>
+    </ProcessTrigger>
+  </ProcessTriggers>
+</Workflow>

@@ -1,0 +1,137 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Workflow WorkflowId="{f9c8e85d-64db-e711-8113-5065f38bc531}" Name="Tc.Uk.Retail.Customer.ThomasCookMarketingConsent" Description="Click to add description">
+  <XamlFileName>/Workflows/TcUkRetailCustomerThomasCookMarketingConsent-F9C8E85D-64DB-E711-8113-5065F38BC531.xaml</XamlFileName>
+  <Type>1</Type>
+  <Subprocess>0</Subprocess>
+  <Category>2</Category>
+  <Mode>1</Mode>
+  <Scope>4</Scope>
+  <OnDemand>0</OnDemand>
+  <TriggerOnCreate>0</TriggerOnCreate>
+  <TriggerOnDelete>0</TriggerOnDelete>
+  <AsyncAutodelete>0</AsyncAutodelete>
+  <SyncWorkflowLogOnFailure>0</SyncWorkflowLogOnFailure>
+  <StateCode>1</StateCode>
+  <StatusCode>2</StatusCode>
+  <RunAs>1</RunAs>
+  <IsTransacted>1</IsTransacted>
+  <IntroducedVersion>6.0.20</IntroducedVersion>
+  <IsCustomizable>1</IsCustomizable>
+  <BusinessProcessType>0</BusinessProcessType>
+  <PrimaryEntity>Contact</PrimaryEntity>
+  <labels>
+    <steplabels id="{82cf6447-4062-4787-8a28-733c7f7be72f}">
+      <label languagecode="1033" description="Please make sure at least one type of marketing communication is allowed." />
+    </steplabels>
+  </labels>
+  <ProcessTriggers>
+    <ProcessTrigger processtriggerid="{947048e4-83e5-e711-8113-5065f38b74a1}">
+      <controltype>1</controltype>
+      <formid>{9e52c4e1-4a67-472a-8a42-ec15c9291fb1}</formid>
+      <scope>1</scope>
+      <controlname>tc_thomascookmarketingconsent</controlname>
+      <event>change</event>
+      <pipelinestage>0</pipelinestage>
+      <iscustomizable>1</iscustomizable>
+      <primaryentitytypecode>Contact</primaryentitytypecode>
+    </ProcessTrigger>
+    <ProcessTrigger processtriggerid="{957048e4-83e5-e711-8113-5065f38b74a1}">
+      <formid>{9e52c4e1-4a67-472a-8a42-ec15c9291fb1}</formid>
+      <scope>1</scope>
+      <event>load</event>
+      <pipelinestage>0</pipelinestage>
+      <iscustomizable>1</iscustomizable>
+      <primaryentitytypecode>Contact</primaryentitytypecode>
+    </ProcessTrigger>
+    <ProcessTrigger processtriggerid="{967048e4-83e5-e711-8113-5065f38b74a1}">
+      <controltype>1</controltype>
+      <formid>{9e52c4e1-4a67-472a-8a42-ec15c9291fb1}</formid>
+      <scope>1</scope>
+      <controlname>tc_marketingbyphone</controlname>
+      <event>change</event>
+      <pipelinestage>0</pipelinestage>
+      <iscustomizable>1</iscustomizable>
+      <primaryentitytypecode>Contact</primaryentitytypecode>
+    </ProcessTrigger>
+    <ProcessTrigger processtriggerid="{977048e4-83e5-e711-8113-5065f38b74a1}">
+      <formid>{9e52c4e1-4a67-472a-8a42-ec15c9291fb1}</formid>
+      <scope>1</scope>
+      <event>load</event>
+      <pipelinestage>0</pipelinestage>
+      <iscustomizable>1</iscustomizable>
+      <primaryentitytypecode>Contact</primaryentitytypecode>
+    </ProcessTrigger>
+    <ProcessTrigger processtriggerid="{987048e4-83e5-e711-8113-5065f38b74a1}">
+      <controltype>1</controltype>
+      <formid>{9e52c4e1-4a67-472a-8a42-ec15c9291fb1}</formid>
+      <scope>1</scope>
+      <controlname>tc_sendmarketingbyemail</controlname>
+      <event>change</event>
+      <pipelinestage>0</pipelinestage>
+      <iscustomizable>1</iscustomizable>
+      <primaryentitytypecode>Contact</primaryentitytypecode>
+    </ProcessTrigger>
+    <ProcessTrigger processtriggerid="{997048e4-83e5-e711-8113-5065f38b74a1}">
+      <formid>{9e52c4e1-4a67-472a-8a42-ec15c9291fb1}</formid>
+      <scope>1</scope>
+      <event>load</event>
+      <pipelinestage>0</pipelinestage>
+      <iscustomizable>1</iscustomizable>
+      <primaryentitytypecode>Contact</primaryentitytypecode>
+    </ProcessTrigger>
+    <ProcessTrigger processtriggerid="{9a7048e4-83e5-e711-8113-5065f38b74a1}">
+      <controltype>1</controltype>
+      <formid>{9e52c4e1-4a67-472a-8a42-ec15c9291fb1}</formid>
+      <scope>1</scope>
+      <controlname>tc_sendmarketingbypost</controlname>
+      <event>change</event>
+      <pipelinestage>0</pipelinestage>
+      <iscustomizable>1</iscustomizable>
+      <primaryentitytypecode>Contact</primaryentitytypecode>
+    </ProcessTrigger>
+    <ProcessTrigger processtriggerid="{9b7048e4-83e5-e711-8113-5065f38b74a1}">
+      <formid>{9e52c4e1-4a67-472a-8a42-ec15c9291fb1}</formid>
+      <scope>1</scope>
+      <event>load</event>
+      <pipelinestage>0</pipelinestage>
+      <iscustomizable>1</iscustomizable>
+      <primaryentitytypecode>Contact</primaryentitytypecode>
+    </ProcessTrigger>
+    <ProcessTrigger processtriggerid="{9c7048e4-83e5-e711-8113-5065f38b74a1}">
+      <controltype>1</controltype>
+      <formid>{9e52c4e1-4a67-472a-8a42-ec15c9291fb1}</formid>
+      <scope>1</scope>
+      <controlname>tc_sendmarketingbysms</controlname>
+      <event>change</event>
+      <pipelinestage>0</pipelinestage>
+      <iscustomizable>1</iscustomizable>
+      <primaryentitytypecode>Contact</primaryentitytypecode>
+    </ProcessTrigger>
+    <ProcessTrigger processtriggerid="{9d7048e4-83e5-e711-8113-5065f38b74a1}">
+      <formid>{9e52c4e1-4a67-472a-8a42-ec15c9291fb1}</formid>
+      <scope>1</scope>
+      <event>load</event>
+      <pipelinestage>0</pipelinestage>
+      <iscustomizable>1</iscustomizable>
+      <primaryentitytypecode>Contact</primaryentitytypecode>
+    </ProcessTrigger>
+    <ProcessTrigger processtriggerid="{9e7048e4-83e5-e711-8113-5065f38b74a1}">
+      <controltype>1</controltype>
+      <formid>{9e52c4e1-4a67-472a-8a42-ec15c9291fb1}</formid>
+      <scope>1</scope>
+      <controlname>tc_thomascookmarketingconsent</controlname>
+      <event>change</event>
+      <pipelinestage>0</pipelinestage>
+      <iscustomizable>1</iscustomizable>
+      <primaryentitytypecode>Contact</primaryentitytypecode>
+    </ProcessTrigger>
+    <ProcessTrigger processtriggerid="{9f7048e4-83e5-e711-8113-5065f38b74a1}">
+      <formid>{9e52c4e1-4a67-472a-8a42-ec15c9291fb1}</formid>
+      <scope>1</scope>
+      <event>load</event>
+      <pipelinestage>0</pipelinestage>
+      <iscustomizable>1</iscustomizable>
+      <primaryentitytypecode>Contact</primaryentitytypecode>
+    </ProcessTrigger>
+  </ProcessTriggers>
+</Workflow>

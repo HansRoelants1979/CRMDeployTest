@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Workflow WorkflowId="{dba736e6-d1c2-e711-810f-5065f38bd561}" Name="Tc.Account.ShowMergeFlag" Description="Click to add description">
+  <XamlFileName>/Workflows/TcAccountShowMergeFlag-DBA736E6-D1C2-E711-810F-5065F38BD561.xaml</XamlFileName>
+  <Type>1</Type>
+  <Subprocess>0</Subprocess>
+  <Category>2</Category>
+  <Mode>1</Mode>
+  <Scope>4</Scope>
+  <OnDemand>0</OnDemand>
+  <TriggerOnCreate>0</TriggerOnCreate>
+  <TriggerOnDelete>0</TriggerOnDelete>
+  <AsyncAutodelete>0</AsyncAutodelete>
+  <SyncWorkflowLogOnFailure>0</SyncWorkflowLogOnFailure>
+  <StateCode>1</StateCode>
+  <StatusCode>2</StatusCode>
+  <RunAs>1</RunAs>
+  <IsTransacted>1</IsTransacted>
+  <IntroducedVersion>1.0</IntroducedVersion>
+  <IsCustomizable>1</IsCustomizable>
+  <BusinessProcessType>0</BusinessProcessType>
+  <PrimaryEntity>Account</PrimaryEntity>
+  <ProcessTriggers>
+    <ProcessTrigger processtriggerid="{e4a736e6-d1c2-e711-810f-5065f38bd561}">
+      <controltype>1</controltype>
+      <formid>{8448b78f-8f42-454e-8e2a-f8196b0419af}</formid>
+      <scope>1</scope>
+      <controlname>tc_mergedwithotheraccount</controlname>
+      <event>change</event>
+      <pipelinestage>0</pipelinestage>
+      <iscustomizable>1</iscustomizable>
+      <primaryentitytypecode>Account</primaryentitytypecode>
+    </ProcessTrigger>
+    <ProcessTrigger processtriggerid="{e5a736e6-d1c2-e711-810f-5065f38bd561}">
+      <formid>{8448b78f-8f42-454e-8e2a-f8196b0419af}</formid>
+      <scope>1</scope>
+      <event>load</event>
+      <pipelinestage>0</pipelinestage>
+      <iscustomizable>1</iscustomizable>
+      <primaryentitytypecode>Account</primaryentitytypecode>
+    </ProcessTrigger>
+  </ProcessTriggers>
+</Workflow>

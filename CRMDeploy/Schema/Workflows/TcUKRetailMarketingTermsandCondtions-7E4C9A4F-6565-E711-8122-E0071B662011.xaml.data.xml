@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Workflow WorkflowId="{7e4c9a4f-6565-e711-8122-e0071b662011}" Name="Tc.UK.Retail.MarketingTermsandCondtions" Description="Thomas Cook Group Companies Marketing Terms &amp; Condtions">
+  <XamlFileName>/Workflows/TcUKRetailMarketingTermsandCondtions-7E4C9A4F-6565-E711-8122-E0071B662011.xaml</XamlFileName>
+  <Type>1</Type>
+  <Subprocess>0</Subprocess>
+  <Category>2</Category>
+  <Mode>1</Mode>
+  <Scope>4</Scope>
+  <OnDemand>0</OnDemand>
+  <TriggerOnCreate>0</TriggerOnCreate>
+  <TriggerOnDelete>0</TriggerOnDelete>
+  <AsyncAutodelete>0</AsyncAutodelete>
+  <SyncWorkflowLogOnFailure>0</SyncWorkflowLogOnFailure>
+  <StateCode>1</StateCode>
+  <StatusCode>2</StatusCode>
+  <RunAs>1</RunAs>
+  <IsTransacted>1</IsTransacted>
+  <IntroducedVersion>0.0.0.1</IntroducedVersion>
+  <IsCustomizable>1</IsCustomizable>
+  <BusinessProcessType>0</BusinessProcessType>
+  <PrimaryEntity>Contact</PrimaryEntity>
+  <labels>
+    <steplabels id="{9a91a09d-b4b3-42cb-8534-67437e765cb7}">
+      <label languagecode="1033" description="Thomas Cook Group Companies Marketing Terms &amp; Condtions" />
+    </steplabels>
+    <steplabels id="{cfdabe76-62f7-426d-9e94-a5f4d8a3d4d4}">
+      <label languagecode="1033" description="The Thomas Cook group companies that may use your data for marketing purposes are:&#xA;For travel and travel related products and services:&#xA;Thomas Cook Retail Limited trading as Thomascook.com &#xA;Thomas Cook Tour Operations Limited trading as Thomas Cook, Airtours, Signature, Flexibletrips, Club 18-30, Thomas Cook Sport, Thomas Cook City Escapes, Thomas Cook Cruise and Stay and Manos &#xA;TCCT Retail Limited trading as The Co-operative Travel and Thomas Cook&#xA;Thomas Cook Airlines Limited&#xA;Thomas Cook Airlines Scandinavia A/S – Airshoppen to send you marketing information about flights and in-flight services such as Thomas Cook Airlines’ online duty free shop, Airshoppen&#xA;For financial products/services such as insurance, travel money and personal finance solutions:&#xA;Thomas Cook Money Limited&#xA;Thomas Cook Retail Limited&#xA;TCCT Retail Limited&#xA;Thomas Cook Airlines Limited&#xA;Thomas Cook Airlines Scandinavia A/S – Airshoppen to send you marketing information about flights and in-flight services such as Thomas Cook Airlines’ online duty free shop, Airshoppen" />
+    </steplabels>
+  </labels>
+  <ProcessTriggers>
+    <ProcessTrigger processtriggerid="{bc8d0e56-6565-e711-8122-e0071b662011}">
+      <controltype>1</controltype>
+      <scope>1</scope>
+      <controlname>tc_thomascookmarketingconsent</controlname>
+      <event>change</event>
+      <pipelinestage>0</pipelinestage>
+      <iscustomizable>1</iscustomizable>
+      <primaryentitytypecode>Contact</primaryentitytypecode>
+    </ProcessTrigger>
+    <ProcessTrigger processtriggerid="{bd8d0e56-6565-e711-8122-e0071b662011}">
+      <scope>1</scope>
+      <event>load</event>
+      <pipelinestage>0</pipelinestage>
+      <iscustomizable>1</iscustomizable>
+      <primaryentitytypecode>Contact</primaryentitytypecode>
+    </ProcessTrigger>
+  </ProcessTriggers>
+</Workflow>

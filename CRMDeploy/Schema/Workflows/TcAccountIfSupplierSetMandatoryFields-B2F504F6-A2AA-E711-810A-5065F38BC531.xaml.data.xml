@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Workflow WorkflowId="{b2f504f6-a2aa-e711-810a-5065f38bc531}" Name="Tc.Account.IfSupplierSetMandatoryFields" Description="Click to add description">
+  <XamlFileName>/Workflows/TcAccountIfSupplierSetMandatoryFields-B2F504F6-A2AA-E711-810A-5065F38BC531.xaml</XamlFileName>
+  <Type>1</Type>
+  <Subprocess>0</Subprocess>
+  <Category>2</Category>
+  <Mode>1</Mode>
+  <Scope>4</Scope>
+  <OnDemand>0</OnDemand>
+  <TriggerOnCreate>0</TriggerOnCreate>
+  <TriggerOnDelete>0</TriggerOnDelete>
+  <AsyncAutodelete>0</AsyncAutodelete>
+  <SyncWorkflowLogOnFailure>0</SyncWorkflowLogOnFailure>
+  <StateCode>1</StateCode>
+  <StatusCode>2</StatusCode>
+  <RunAs>1</RunAs>
+  <IsTransacted>1</IsTransacted>
+  <IntroducedVersion>2.0.0.8</IntroducedVersion>
+  <IsCustomizable>1</IsCustomizable>
+  <BusinessProcessType>0</BusinessProcessType>
+  <PrimaryEntity>Account</PrimaryEntity>
+  <ProcessTriggers>
+    <ProcessTrigger processtriggerid="{24e66d28-c2ac-e711-8109-5065f38b74a1}">
+      <controltype>1</controltype>
+      <scope>1</scope>
+      <controlname>tc_accounttypeid</controlname>
+      <event>change</event>
+      <pipelinestage>0</pipelinestage>
+      <iscustomizable>1</iscustomizable>
+      <primaryentitytypecode>Account</primaryentitytypecode>
+    </ProcessTrigger>
+    <ProcessTrigger processtriggerid="{25e66d28-c2ac-e711-8109-5065f38b74a1}">
+      <scope>1</scope>
+      <event>load</event>
+      <pipelinestage>0</pipelinestage>
+      <iscustomizable>1</iscustomizable>
+      <primaryentitytypecode>Account</primaryentitytypecode>
+    </ProcessTrigger>
+  </ProcessTriggers>
+</Workflow>

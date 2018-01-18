@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<systemform>
+  <formid>{c9e7ec2d-efca-4e4c-b3e3-f63c4bba5e4b}</formid>
+  <IntroducedVersion>6.0.0.0</IntroducedVersion>
+  <FormPresentation>0</FormPresentation>
+  <FormActivationState>1</FormActivationState>
+  <form maxWidth="1900">
+    <tabs>
+      <tab id="{8ca48364-f790-43e4-b753-aa35fa4f9c77}" name="tab_1" expanded="true" locklevel="0" showlabel="false" IsUserDefined="0" ordinalvalue="0">
+        <columns>
+          <column width="33%" id="0">
+            <sections>
+              <section id="{bcee7abc-6004-49f3-bc27-9eb7d1d3561b}" name="tab_1_column_1_section_1" columns="1" showlabel="true" showbar="false" IsUserDefined="0" locklevel="0" labelwidth="115" celllabelalignment="Left" celllabelposition="Left" ordinalvalue="0">
+                <rows>
+                  <row>
+                    <cell id="{1b493db6-167b-6b45-a790-8039e48ba201}" showlabel="true" locklevel="0" ordinalvalue="10001">
+                      <control id="telephone1" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="telephone1" disabled="false" uniqueid="{89954d96-342a-39ed-0ebb-5178d6c0c249}" solutionaction="Modified" />
+                    </cell>
+                  </row>
+                </rows>
+              </section>
+            </sections>
+          </column>
+        </columns>
+      </tab>
+    </tabs>
+    <controlDescriptions solutionaction="Added" />
+    <formLibraries solutionaction="Added">
+      <Library name="tc_es6promise.js" libraryUniqueId="{78113006-00e6-7be4-8631-92dcccdd6b5c}" />
+      <Library name="tc_Tc.Crm.Scripts.Common.js" libraryUniqueId="{1238eeed-23db-cab1-c982-a62b65d323a1}" />
+      <Library name="tc_Tc.Crm.Scripts.Utils.Validation.js" libraryUniqueId="{aa5dd45d-b026-7be1-5490-cbc25169d0d8}" />
+      <Library name="tc_Tc.Crm.Scripts.Events.Account" libraryUniqueId="{d2ed31b2-d8e8-81c3-1041-9b3363141e51}" />
+    </formLibraries>
+    <events solutionaction="Added">
+      <event name="onchange" application="false" active="false" attribute="telephone1">
+        <Handlers>
+          <Handler functionName="Tc.Crm.Scripts.Events.Account.OnChangeTelephone1" libraryName="tc_Tc.Crm.Scripts.Events.Account" handlerUniqueId="{10453a7e-c3a8-e6b5-c1ed-d11604a369ca}" enabled="true" parameters="" passExecutionContext="false" />
+        </Handlers>
+      </event>
+      <event name="onsave" application="false" active="false">
+        <Handlers>
+          <Handler functionName="Tc.Crm.Scripts.Events.Account.OnSave" libraryName="tc_Tc.Crm.Scripts.Events.Account" handlerUniqueId="{690da4dd-1617-0dcc-2800-cdb546e8d000}" enabled="true" parameters="" passExecutionContext="true" />
+        </Handlers>
+      </event>
+    </events>
+  </form>
+  <LocalizedNames>
+    <LocalizedName description="Firma – Schnellerfassung" languagecode="1031" />
+    <LocalizedName description="Account Quick Create" languagecode="1033" />
+    <LocalizedName description="Création rapide de compte" languagecode="1036" />
+  </LocalizedNames>
+  <Descriptions>
+    <Description description="Standardformular für Schnellerfassung für Firma" languagecode="1031" />
+    <Description description="Default quick create form for Account" languagecode="1033" />
+    <Description description="Formulaire de création rapide par défaut pour le compte" languagecode="1036" />
+  </Descriptions>
+</systemform>

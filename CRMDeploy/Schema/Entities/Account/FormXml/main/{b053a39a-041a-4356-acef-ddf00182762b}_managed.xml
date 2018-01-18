@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<systemform>
+  <formid>{b053a39a-041a-4356-acef-ddf00182762b}</formid>
+  <IntroducedVersion>5.0.0.0</IntroducedVersion>
+  <FormPresentation>0</FormPresentation>
+  <FormActivationState>0</FormActivationState>
+  <form showImage="true">
+    <tabs>
+      <tab name="administration" id="{5b8906be-c80f-4c26-8ba2-b07f45cb2936}" IsUserDefined="0" ordinalvalue="4">
+        <columns>
+          <column width="100%" id="0">
+            <sections>
+              <section name="contact methods" showlabel="true" showbar="true" id="{842b89e4-8f3a-46b3-9d23-291eb8685ce9}" IsUserDefined="0" ordinalvalue="1">
+                <rows>
+                  <row>
+                    <cell id="{4c7e3528-1a05-47d8-99c4-383e8ae36f62}" ordinalvalue="20007" solutionaction="Modified" />
+                  </row>
+                  <row>
+                    <cell id="{7978684f-a8c5-48b2-9b11-4d34215f3e74}" ordinalvalue="10003" solutionaction="Modified" />
+                    <cell id="{360d95eb-8ba4-41be-b8ad-5e9feed28f0c}" ordinalvalue="20001" solutionaction="Modified" />
+                    <cell id="{555ac5ba-3a26-428d-bcc2-2186f3e99b55}" ordinalvalue="30002" solutionaction="Modified" />
+                  </row>
+                  <row>
+                    <cell id="{18193a06-a1fa-41c7-86b6-7bd88696c495}" ordinalvalue="10006" solutionaction="Modified" />
+                    <cell id="{0a5eeb02-68b5-4cec-93d5-fa27bd56e89b}" ordinalvalue="20004" solutionaction="Modified" />
+                  </row>
+                  <row>
+                    <cell id="{4a9ae9d0-f4ca-45f0-886c-bcfc00f98003}" ordinalvalue="10009" solutionaction="Modified" />
+                    <cell id="{7efb5294-1d1c-4f78-9918-03dd80563cfb}" ordinalvalue="20010" solutionaction="Modified" />
+                  </row>
+                  <row>
+                    <cell id="{93f01f18-b557-46c1-82b2-929201a742af}" ordinalvalue="30005" solutionaction="Added">
+                      <labels>
+                        <label description="" languagecode="1033" />
+                      </labels>
+                    </cell>
+                  </row>
+                  <row>
+                    <cell id="{67bbe67c-e1ea-4eef-a269-1cfb9c669b9f}" ordinalvalue="30008" solutionaction="Added">
+                      <labels>
+                        <label description="" languagecode="1033" />
+                      </labels>
+                    </cell>
+                  </row>
+                  <row>
+                    <cell id="{5e051214-a28c-47c5-936c-2c8d5ac325aa}" ordinalvalue="30011" solutionaction="Added">
+                      <labels>
+                        <label description="" languagecode="1033" />
+                      </labels>
+                    </cell>
+                  </row>
+                </rows>
+              </section>
+            </sections>
+          </column>
+        </columns>
+      </tab>
+    </tabs>
+  </form>
+  <LocalizedNames>
+    <LocalizedName description="Informationen" languagecode="1031" />
+    <LocalizedName description="Information" languagecode="1033" />
+    <LocalizedName description="Informations" languagecode="1036" />
+  </LocalizedNames>
+  <Descriptions>
+    <Description description="Ein Formular für diese Entität" languagecode="1031" />
+    <Description description="A form for this entity." languagecode="1033" />
+    <Description description="Formulaire pour cette entité." languagecode="1036" />
+  </Descriptions>
+</systemform>
