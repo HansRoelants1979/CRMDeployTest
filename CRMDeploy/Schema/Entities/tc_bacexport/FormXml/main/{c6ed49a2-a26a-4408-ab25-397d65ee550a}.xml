@@ -1,0 +1,181 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<systemform>
+  <formid>{c6ed49a2-a26a-4408-ab25-397d65ee550a}</formid>
+  <IntroducedVersion>6.0.20</IntroducedVersion>
+  <FormPresentation>1</FormPresentation>
+  <FormActivationState>1</FormActivationState>
+  <form>
+    <tabs>
+      <tab verticallayout="true" id="{e8763ede-0342-4a30-95f0-1c941bcf2e82}" IsUserDefined="1" expanded="true">
+        <labels>
+          <label description="Allgemein" languagecode="1031" />
+          <label description="General" languagecode="1033" />
+          <label description="Général" languagecode="1036" />
+        </labels>
+        <columns>
+          <column width="100%">
+            <sections>
+              <section showlabel="false" showbar="false" IsUserDefined="0" id="{9bcace08-7459-47bf-8894-c902ad3ee44c}">
+                <labels>
+                  <label description="Allgemein" languagecode="1031" />
+                  <label description="General" languagecode="1033" />
+                  <label description="Général" languagecode="1036" />
+                </labels>
+                <rows>
+                  <row>
+                    <cell id="{38ba2255-447c-4e60-b911-2fa548fbdad3}" showlabel="true" locklevel="0">
+                      <labels>
+                        <label description="Name" languagecode="1033" />
+                      </labels>
+                      <control id="tc_name" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="tc_name" uniqueid="{0536c906-0c75-8c73-d926-70cd74a17663}" disabled="true" />
+                    </cell>
+                  </row>
+                  <row>
+                    <cell id="{dbcc9d5e-8c05-cc19-dd0a-54634d86c618}" showlabel="false" colspan="1" auto="false" rowspan="6">
+                      <labels>
+                        <label description="BACS REady For Export" languagecode="1033" />
+                        <label description="Kompensationslinien" languagecode="1031" />
+                      </labels>
+                      <control id="BACSForExport" classid="{E7A81278-8635-4d9e-8D4D-59480B391C5B}" indicationOfSubgrid="true">
+                        <parameters>
+                          <ViewId>{83929FCF-AAE1-E711-8113-5065F38BC531}</ViewId>
+                          <IsUserView>false</IsUserView>
+                          <RelationshipName>tc_tc_bacexport_tc_compensationline_BACSExport</RelationshipName>
+                          <TargetEntityType>tc_compensationline</TargetEntityType>
+                          <AutoExpand>Fixed</AutoExpand>
+                          <EnableQuickFind>false</EnableQuickFind>
+                          <EnableViewPicker>false</EnableViewPicker>
+                          <ViewIds>{021269EB-3101-48A8-8976-3FA4B9C2FC92},{83929FCF-AAE1-E711-8113-5065F38BC531}</ViewIds>
+                          <EnableJumpBar>false</EnableJumpBar>
+                          <ChartGridMode>All</ChartGridMode>
+                          <VisualizationId>{81E7F3E8-4615-E711-810C-3863BB34FB48}</VisualizationId>
+                          <IsUserChart>false</IsUserChart>
+                          <EnableChartPicker>true</EnableChartPicker>
+                          <RecordsPerPage>4</RecordsPerPage>
+                        </parameters>
+                      </control>
+                    </cell>
+                  </row>
+                  <row />
+                  <row />
+                  <row />
+                  <row />
+                  <row />
+                  <row>
+                    <cell id="{50dccab8-469a-1210-4048-a01846a9e2ae}" showlabel="true" locklevel="0">
+                      <labels>
+                        <label description="Export info" languagecode="1033" />
+                      </labels>
+                      <control id="tc_exportinfo" classid="{E0DECE4B-6FC8-4a8f-A065-082708572369}" datafieldname="tc_exportinfo" disabled="false" />
+                    </cell>
+                  </row>
+                  <row>
+                    <cell id="{ff1f25da-7cbf-4418-b749-cb19bf9c8a27}">
+                      <labels>
+                        <label description="Owner" languagecode="1033" />
+                        <label description="Propriétaire" languagecode="1036" />
+                        <label description="Besitzer" languagecode="1031" />
+                      </labels>
+                      <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" />
+                    </cell>
+                  </row>
+                  <row>
+                    <cell id="{cb270d4d-bee8-480d-a9a4-465ae07b2e67}" showlabel="true" rowspan="10" auto="false" colspan="1" locklevel="0">
+                      <labels>
+                        <label description="Note Text" languagecode="1033" />
+                      </labels>
+                      <control id="notescontrol" classid="{06375649-c143-495e-a496-c962e5b4488e}" uniqueid="{784000ec-cd44-1d80-26e2-1e5216c2488d}" disabled="false">
+                        <parameters>
+                          <DefaultTabId>ActivitiesTab</DefaultTabId>
+                          <ShowArticleTab>false</ShowArticleTab>
+                          <SelectDefaultLanguage>00000000-0000-0000-0000-000000000000</SelectDefaultLanguage>
+                        </parameters>
+                      </control>
+                    </cell>
+                  </row>
+                  <row />
+                  <row />
+                  <row />
+                  <row />
+                  <row />
+                  <row />
+                  <row />
+                  <row />
+                  <row />
+                </rows>
+              </section>
+            </sections>
+          </column>
+        </columns>
+      </tab>
+    </tabs>
+    <footer id="{173a45c8-05ec-4626-94b7-0c7692a10ade}" columns="111">
+      <rows>
+        <row>
+          <cell id="{6e72c80a-7367-bc59-6872-3b912463566a}" showlabel="true" locklevel="0">
+            <labels>
+              <label description="Status" languagecode="1033" />
+              <label description="Statut" languagecode="1036" />
+            </labels>
+            <control id="footer_statecode" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="statecode" disabled="true" />
+          </cell>
+          <cell id="{6b260e17-a72d-e968-e018-c92705ec26dc}" showlabel="true" locklevel="0">
+            <labels>
+              <label description="Status Reason" languagecode="1033" />
+              <label description="Raison du statut" languagecode="1036" />
+              <label description="Statusgrund" languagecode="1031" />
+            </labels>
+            <control id="footer_statuscode" classid="{5D68B988-0661-4db2-BC3E-17598AD3BE6C}" datafieldname="statuscode" disabled="true" />
+          </cell>
+          <cell id="{42710eaa-eccb-e98b-6878-7ad27169176d}" showlabel="true" locklevel="0">
+            <labels>
+              <label description="Created On" languagecode="1033" />
+              <label description="Créé le" languagecode="1036" />
+              <label description="Erstellt am" languagecode="1031" />
+            </labels>
+            <control id="footer_createdon" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="createdon" disabled="true" />
+          </cell>
+        </row>
+      </rows>
+    </footer>
+    <Navigation>
+      <NavBar></NavBar>
+      <NavBarAreas>
+        <NavBarArea Id="Info">
+          <Titles>
+            <Title LCID="1033" Text="Common" />
+          </Titles>
+        </NavBarArea>
+        <NavBarArea Id="Sales">
+          <Titles>
+            <Title LCID="1033" Text="Sales" />
+          </Titles>
+        </NavBarArea>
+        <NavBarArea Id="Service">
+          <Titles>
+            <Title LCID="1033" Text="Service" />
+          </Titles>
+        </NavBarArea>
+        <NavBarArea Id="Marketing">
+          <Titles>
+            <Title LCID="1033" Text="Marketing" />
+          </Titles>
+        </NavBarArea>
+        <NavBarArea Id="ProcessCenter">
+          <Titles>
+            <Title LCID="1033" Text="Process Sessions" />
+          </Titles>
+        </NavBarArea>
+      </NavBarAreas>
+    </Navigation>
+    <controlDescriptions />
+  </form>
+  <IsCustomizable>1</IsCustomizable>
+  <CanBeDeleted>1</CanBeDeleted>
+  <LocalizedNames>
+    <LocalizedName description="Information" languagecode="1033" />
+  </LocalizedNames>
+  <Descriptions>
+    <Description description="A form for this entity." languagecode="1033" />
+  </Descriptions>
+</systemform>

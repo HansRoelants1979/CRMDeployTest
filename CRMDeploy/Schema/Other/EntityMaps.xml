@@ -10,4 +10,9 @@
     <EntityTarget>contact</EntityTarget>
     <AttributeMaps />
   </EntityMap>
+  <EntityMap>
+    <EntitySource>tc_boardbasis</EntitySource>
+    <EntityTarget>opportunity</EntityTarget>
+    <AttributeMaps />
+  </EntityMap>
 </EntityMaps>
