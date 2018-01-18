@@ -45,6 +45,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="scripts\account.js" />
+    <Content Include="scripts\contact.js" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
