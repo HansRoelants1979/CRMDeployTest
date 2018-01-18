@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Mapping>
+<!--  <FileToFile map="WebResources\nf_MyComponent\Images\test_image.jpg" to="..\Project.Solution1.WebResources\MyComponent\Images\test_image.jpg" />
+ -->
+  <FileToFile map="WebResources\new_\account.js" to="..\ALMPOC.CRM.Webresources\scripts\account.js" />
+
+  <FileToFile map="PluginAssemblies\**\ALMPOCCRMPlugin.dll" to="..\ALMPOC.CRM.Plugin\bin\**\ALMPOC.CRM.Plugin.dll" />
+
+
+  <!--<FileToFile map="PluginAssemblies\**\ALMPOC.CRM.Workflow.dll" to="..\Test.Xrm.Workflows\bin\**\Test.Xrm.Workflows.dll" />-->
+
+
+ </Mapping>

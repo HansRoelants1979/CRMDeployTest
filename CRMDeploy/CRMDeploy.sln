@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Schema", "Schema\Schema.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Data", "Data\Data.csproj", "{6051AC4D-1333-4245-A6FA-27868E5DFD85}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ALMPOC.Tools", "ALMPOC.Tools\ALMPOC.Tools.csproj", "{6EB89954-EB6D-4641-835B-C3BA9DE23BC3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{6051AC4D-1333-4245-A6FA-27868E5DFD85}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6051AC4D-1333-4245-A6FA-27868E5DFD85}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6051AC4D-1333-4245-A6FA-27868E5DFD85}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6EB89954-EB6D-4641-835B-C3BA9DE23BC3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6EB89954-EB6D-4641-835B-C3BA9DE23BC3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6EB89954-EB6D-4641-835B-C3BA9DE23BC3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6EB89954-EB6D-4641-835B-C3BA9DE23BC3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
