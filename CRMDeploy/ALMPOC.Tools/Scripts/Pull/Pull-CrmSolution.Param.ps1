@@ -24,7 +24,7 @@ try
     -serverUrl (Get-CrmDevOrgUrl "Schema") `
     -username (Get-CrmUsername "Schema") `
     -password (Get-CrmPassword "Schema") `
-    -solutionName "ThomasCook" `
+    -solutionName "TC_Deploy" `
     -solutionRootFolder "..\..\..\Schema" `
     -solutionMapFile "..\..\Mappings\ALMPOC.CRM.Schema-mapping.xml"
 
